@@ -1,0 +1,44 @@
+// dynamic routes  with product page []
+// catch all using doc
+//not-found.tsx // not found in next navigation also
+// _ using this can make pvt folder
+// route group using ()
+// stactick type metData and for dynamic we can do generateMetaData (works only on server)
+
+
+// params and search params (server component)
+// to navigate dynmaically use router.push , redirecrt , not found (redirect server side)
+
+// template.tsx in  nextjs and same like router but dom recreated,state cleared,effect resychrnoised,
+ can use both layout and template laout is upper heirarchy
+
+// errro handling 
+error.tsx
+for full refresh use 
+startTransition(()=>{
+  router.refresh()
+  reset()
+})
+//so for global error fixes we can wrap  Layout children in\\\ errorwrapper
+//parallel routes
+defines using feature known as slots
+folfer name => @folder-name
+call these in layout.tsx as params ({})
+interceptor route work woith (.) example of photo model
+//
+generatingStaticParams()
+
+Rendering Section Summary 
+CSR,
+SSR,
+Suspense of SSR,
+RSc,
+Server and client xocmponent 
+Rsc rendering lifecyscle -> (client request -> nextjs -> react -> payload in json format)=> 
+stream and suspense => to browser => static UI (non interactive then client component interaction to final UI)
+
+Static and dynamic rendering
+Streaming
+Server and client composition
+useFormStatus, 
+useActionState
