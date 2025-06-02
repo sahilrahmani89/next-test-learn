@@ -42,3 +42,6 @@ Streaming
 Server and client composition
 useFormStatus, 
 useActionState
+rewrite (url will be same but serve different page need to be done in next.config.js/ts) and 
+redirect (server side and change direction)
+ Concurrent Mode features// 
