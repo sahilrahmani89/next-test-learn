@@ -45,3 +45,9 @@ useActionState
 rewrite (url will be same but serve different page need to be done in next.config.js/ts) and 
 redirect (server side and change direction)
  Concurrent Mode features// 
+ useTransition() // isPending(state),startTransition(setstate) // for synchronous code //  still it will freeze UI, but it tells react this not imp
+ Automating Batching // by default 
+ Suspens (if we wrap this to server   component which taking time to load so instead of waiting to mount that component
+  we can suspend that component and can show fallback)
+  useDeffered -> update query later, priorotize user event 
+  React waits until it has spare time to update the deferred value.
